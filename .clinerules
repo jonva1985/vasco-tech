@@ -1,0 +1,10 @@
+# Reglas de Ingeniería y Estilo para el Proyecto Alcobendas
+
+## Arquitectura y Frontend
+1. Utiliza HTML5 semántico, CSS3 moderno (con Flexbox, CSS Grid y variables CSS) y JavaScript vainilla modular.
+2. Garantiza un diseño 100% responsivo (Mobile-First) compatible con dispositivos móviles, tablets y monitores 4K.
+3. Incorpora un esquema de colores moderno y tecnológico (Tonos oscuros azul/gris con acentos Neón/Cian para máxima atención visual).
+
+## Seguridad y Estándares de Enlaces
+1. Todos los enlaces externos a WhatsApp y Correo deben incluir sanitización y parámetros correctos (`target="_blank" rel="noopener noreferrer"`).
+2. Los botones de llamada a la acción principales deben ser visibles en el Header, Hero Section y en el Footer.

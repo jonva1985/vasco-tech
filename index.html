@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasco Tech Alcobendas - Servicio Técnico Profesional</title>
+    <!-- Font Awesome 6.5.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Poppins e Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Estilos locales -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header con efecto glassmorphism -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Vasco <span class="accent">Tech</span></a>
+            </div>
+            <!-- Botón hamburguesa para móvil -->
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- Menú de navegación -->
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#maintenance">Mantenimiento</a></li>
+                    <li><a href="cv.html">Sobre Mí / CV</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li class="whatsapp-item">
+                        <a href="https://wa.me/34612492967" target="_blank" class="btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1649972184908-76ab3ad3d9c5?q=80&w=1600" alt="Taller informático profesional">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Servicio Técnico Informático Profesional en Alcobendas</h1>
+            <p class="hero-subtitle fade-in fade-in-1">Especialistas en reparación y mantenimiento de PC, Laptops e Impresoras con garantía de calidad.</p>
+            <div class="hero-actions fade-in fade-in-2">
+                <a href="https://wa.me/34612492967?text=Hola%20necesito%20un%20preventivo%20de%20reparaci%C3%B3n" class="btn btn-primary">
+                    <i class="fas fa-wrench"></i> Solicitar Preventivo
+                </a>
+                <a href="https://wa.me/34612492967?text=Hola%20necesito%20servicio%20correctivo%20inmediato" class="btn btn-secondary">
+                    <i class="fas fa-tools"></i> Solicitar Correctivo
+                </a>
+                <a href="mailto:vasco3s2009@gmail.com?subject=Consulta%20de%20servicio%20t%C3%A9cnico" class="btn btn-tertiary">
+                    <i class="fas fa-envelope"></i> Enviar Correo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios en grid -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios Especializados</h2>
+            <p class="section-subtitle">Soluciones integrales para mantener tu tecnología en óptimo funcionamiento.</p>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>PC & Laptops</h3>
+                    <p>Diagnóstico completo, reparación de hardware, optimización de software y actualizaciones de componentes.</p>
+                </div>
+                <div class="service-card fade-in fade-in-1">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Impresoras</h3>
+                    <p>Mantenimiento preventivo, limpieza de cabezales, solución de atascos y configuración de red.</p>
+                </div>
+                <div class="service-card fade-in fade-in-2">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>Limpieza interna, revisión de componentes, actualización de sistemas y protección antivirus.</p>
+                </div>
+                <div class="service-card fade-in fade-in-3">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Mantenimiento Correctivo</h3>
+                    <p>Reparación de fallas, reemplazo de piezas dañadas, recuperación de datos y pruebas de funcionamiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto / Mantenimiento -->
+    <section id="maintenance" class="services-section" style="background: #f1f5f9;">
+        <div class="container">
+            <h2 class="section-title">Mantenimiento Informático en Alcobendas</h2>
+            <p class="section-subtitle">Servicio integral de mantenimiento preventivo y correctivo para empresas y particulares.</p>
+            <div style="text-align:center; margin-top:2rem;">
+                <p><i class="fas fa-map-marker-alt"></i> Calle Triana #2, 1º A, Alcobendas, Madrid</p>
+                <p><i class="fas fa-phone"></i> +34 612492967</p>
+                <p><i class="fas fa-envelope"></i> vasco3s2009@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Vasco Tech Alcobendas</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Calle Triana #2, 1º A, Alcobendas, Madrid</p>
+                <p><i class="fas fa-phone"></i> +34 612492967</p>
+                <p><i class="fas fa-envelope"></i> vasco3s2009@gmail.com</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#maintenance">Mantenimiento</a></li>
+                    <li><a href="cv.html">Sobre Mí / CV</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="https://wa.me/34612492967" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:vasco3s2009@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Vasco Tech Alcobendas. Todos los derechos reservados.</p>
+            <button id="open-admin-btn" class="admin-link" aria-label="Acceso de administración">
+                <i class="fas fa-lock"></i> Acceso Admin
+            </button>
+        </div>
+    </footer>
+
+    <!-- Admin Modal -->
+    <div id="admin-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="close-admin-btn">&times;</span>
+            <h2>Panel de Administración</h2>
+            <form id="admin-form">
+                <div class="form-group">
+                    <label for="admin-password">Contraseña de Administrador:</label>
+                    <input type="password" id="admin-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="hero-image-url">URL de Imagen de Hero:</label>
+                    <input type="url" id="hero-image-url" placeholder="https://ejemplo.com/imagen.jpg" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                <p id="admin-message" class="admin-message"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
